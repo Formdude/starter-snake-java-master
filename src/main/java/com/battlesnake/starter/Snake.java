@@ -123,7 +123,9 @@ public class Snake {
          */
         public Map<String, String> start(JsonNode startRequest) {
             LOG.info("START");
-            return EMPTY;
+            Map<String, String> response = new HashMap<>();
+            response.put("shout", "IT'S MORBIN TIME");
+            return response;
         }
 
         /**
