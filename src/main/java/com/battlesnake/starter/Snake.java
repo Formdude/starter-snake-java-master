@@ -25,6 +25,7 @@ import static spark.Spark.get;
  * https://github.com/BattlesnakeOfficial/starter-snake-java/README.md
  */
 public class Snake {
+    // Lol test
     private static final ObjectMapper JSON_MAPPER = new ObjectMapper();
     private static final Handler HANDLER = new Handler();
     private static final Logger LOG = LoggerFactory.getLogger(Snake.class);
